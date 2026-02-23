@@ -1,0 +1,53 @@
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10%;
+ justify-content: center;
+}
+.pl {
+  padding: 10px;
+  align-items: center;
+  height: 50vh;
+  width: 20%;
+  text-align: center;
+  word-break: break-all;
+  margin-top: 5vh;
+  overflow: hidden;
+  object-fit: cover;
+  border: 1px solid black;
+}
+
+.btn-grad {
+  background-image: linear-gradient(
+    to right,
+    #16222a 0%,
+    #3a6073 51%,
+    #16222a 100%
+  );
+}
+.btn-grad {
+  margin-bottom: -10%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 100% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+}
+.btn-grad:hover {
+  background-position: center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+img {
+  height: 150px;
+  width: 200px;
+}
+
+

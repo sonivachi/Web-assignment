@@ -1,0 +1,56 @@
+.btn-grad {
+  background-image: linear-gradient(
+    to right,
+    #16222a 0%,
+    #3a6073 51%,
+    #16222a 100%
+  );
+}
+h1{
+  text-align: center;
+}
+.card {
+  display: flex;
+  justify-content: center;
+   flex-wrap: wrap;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+}
+.plan1,
+.plan2,
+.plan3 {
+  border: 1px solid;
+  border-radius: 10%;
+   overflow: hidden; 
+  width: 15%; 
+  height: 35vh;
+   object-fit: cover;
+  text-align: center;
+  font-size: large;
+  padding: 10px;
+}
+.plan2{
+    background-color: #84c9eb;
+}
+.plan1,.plan3{
+    background-color: #eaecf4;
+}
+.btn-grad {
+  margin-bottom: -10%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 100% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+}
+.btn-grad:hover {
+  background-position: center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}

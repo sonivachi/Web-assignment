@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+}
+.logo{
+margin-left:-10%;
+margin: 30px;
+margin-top: -1.3vh;
+margin-left: -4%;
+}
+.main{
+    height: 13vh;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 5px 5px 5px rgba(83, 20, 20, 0.078);
+}
+.icon{
+     display: flex;
+    justify-content: end;
+     margin-left:40%;
+
+}
+.left{
+    margin-left: 15px;
+}
