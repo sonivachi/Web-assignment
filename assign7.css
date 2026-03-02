@@ -1,0 +1,43 @@
+.body{
+    display: grid;
+    grid-template-columns: 80% 20%;
+    grid-template-rows: auto;
+    gap: 20px;
+    padding: 25px;
+}
+.main-content{
+    background-color: rgba(166, 221, 171, 0.407);
+    padding: 10px;
+}
+.sidebar{
+    display: grid;
+    text-align: center;
+    gap: 20px;
+    background-color: rgba(167, 227, 190, 0.519);
+    font-size: x-large;
+    padding: 10px;
+}
+.large-magzine{
+ font-size: xx-large;
+}
+.p{
+    position:absolute;
+    top:45vh;
+    color:rgb(255, 255, 255);
+}
+.inner{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px , 1fr));
+    margin-top: 5vh;
+    height: 50vh;
+}
+.small-magzine{
+    padding: 10px;
+    object-fit: cover;
+    height: 20vh ;
+    flex-wrap: wrap;
+ 
+}
+p{
+    font-weight: bold;
+}

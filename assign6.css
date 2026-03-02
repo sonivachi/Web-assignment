@@ -1,0 +1,32 @@
+.gallery {
+  display: flex;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fit,minmax(200px , 1fr));
+  gap: 50px;
+  margin-top: 20vh;
+}
+.inner {
+  border: 1px solid white;
+  height: 60vh;
+  width: 20%;
+ 
+  
+}
+img{
+height: 60vh ;
+width: 100%;
+
+}
+.inner:hover{
+    height: 70vh;
+    width: 50%;
+}
+img:hover{
+    height: 70vh;
+}
+body{
+    background-image: url(https://content.pexels.com/images/canva/ai-generated-ad/off-theme/single_daisy_minimalism-full.jpg);
+     background-attachment: fixed;
+      background-size: cover;
+   
+}

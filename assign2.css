@@ -1,25 +1,42 @@
 body{
     margin: 0;
 }
-.logo{
-margin-left:-10%;
-margin: 30px;
-margin-top: -1.3vh;
-margin-left: -4%;
-}
-.main{
-    height: 13vh;
-    padding: 10px;
+.nav{
+    height: 10vh;
+    
     display: flex;
     justify-content: space-around;
     box-shadow: 5px 5px 5px rgba(83, 20, 20, 0.078);
+     top: 0;
 }
+.logo{
+margin-top: -1.3vh;
+display: grid;
+align-items: center;
+}
+
+.left:hover{
+   border-bottom: 5px solid black;
+   padding: 20px 15px 10px 10px;
+}
+
 .icon{
      display: flex;
-    justify-content: end;
+    justify-content: space-around;
      margin-left:40%;
+     align-items: center;
+     margin-left: 55%;
 
+}
+.button{
+    padding: 25px 25px 25px 50px;
+   
+    
 }
 .left{
     margin-left: 15px;
+    
+}
+.footer{
+    height: 60px;
 }

@@ -11,39 +11,48 @@ header {
   justify-content: center;
 }
 .nav {
-  padding: 30px;
+  padding: 20px;
   background-color: white;
   position: sticky;
   display: flex;
-  /* justify-content: center; */
+  justify-content: center;
+  align-items: center;
   top: 0;
   justify-content: space-around;
    box-shadow:5px 5px 5px 5px rgba(83, 20, 20, 0.078);
 }
+.icon1{
+  display: flex;
+  justify-content: space-around;
+}
 .footer {
   background-color: black;
   padding: 70px;
-  
-  /* display: flex;
-  justify-content: center; */
+  display: flex;
+  justify-content: center;
   justify-content: space-between;
   display:grid;
   grid-template-columns: repeat(3,1fr);
+  bottom: 0;
+  
 }
+
 .icon1{
-  margin-right:10%;
-  margin-left: -15%;
+  margin-left: -19%;
+
 }
 .icon2{
-   display: flex; 
-   text-align: center;
-   justify-content: space-around;
+  display: flex; 
+  text-align: center;
+  justify-content: space-around;
   gap: calc(10px);
-  margin-right: -15%;
+  margin-right: -19%;
 
 }
 .main {
+  margin-top: 4vh;
   height: calc(100vh - 140px);
+  display: grid; 
   background-color: white;
 }
 .offer{
@@ -51,10 +60,7 @@ header {
     position: relative;
     font-size: 30px;
 }
-.main-section{
-  margin-left: auto;
-   margin-right: auto;
-}
+
 .fcontent{
     color: azure;
     word-break: break-all;
@@ -63,4 +69,8 @@ header {
     width: 50%;
     padding-left: 30px;
      padding-bottom: 30px;
+}
+.section{
+  display: block;
+  justify-content: center;
 }
