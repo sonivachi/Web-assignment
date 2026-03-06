@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    align-items: center;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.281);
+}
+.icon{
+    display: flex;
+    gap: 30px;
+}
+.main{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.image{
+    padding: 80px;
+}
+.description{
+    margin-top: 10vh;
+    padding: 20px;
+}
+.first-part{
+    border-bottom: 1px solid black;
+}
+.second-half{
+    margin: 3vh;
+    margin-left: -1%;
+}
